@@ -1,0 +1,9 @@
+.custom_header {
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-color: #f0f0f0;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.custom_button_box {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 11pt;
+    border-radius: 25px;
+    display: inline-flex;
+    padding: 10px 22px;
+    color: #f4f4f4;
+    cursor: pointer;
+    margin: 40px 7px 0 7px;
+}
+
+.custom_button_box:active {
+    background-color: #8ca2ab;
+}
+
+.custom_button_box_inner::selection {
+    background: none;
+    color: none;
+}
