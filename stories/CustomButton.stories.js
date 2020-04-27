@@ -1,16 +1,39 @@
 import React from 'react';
 import CustomButton from '../comps/CustomButton';
 import Header from '../comps/Header';
+import Input from '../comps/Input';
+import Chat from '../comps/Chat';
+import ChatPage from '../pages/ChatPage';
 
 export default {
-    title: "Custom Button",
+    title: "My comps",
     component: CustomButton,
 };
 
 export const MyCustomButton = () => <CustomButton />;
+
+function OkayClick() {
+}
+
+export const MyCustomButtonWithOptions = () => <CustomButton
+    text="okay"
+    color="#7ba69f"
+    onClick={OkayClick}
+/>;
+
 export const MyHeader = () => <Header />;
 
-export const PageWithCustomButtons = () => <div>
+export const MyInput = () => <Input />;
+
+export const MyInputWithPlaceholder = () => <Input
+    placeholder="Custom placeholder"
+/>;
+
+export const MyChat = () => <Chat />;
+
+export const MyChatPage = () => <ChatPage />;
+
+/*export const PageWithCustomButtons = () => <div>
     <Header
         text="welcome"
         fontSize={40}
@@ -61,4 +84,4 @@ function WelcomeHover() {
 
 function BienvenueHover() {
     alert("bienvenue");
-}
+} */

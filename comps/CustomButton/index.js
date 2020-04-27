@@ -13,7 +13,6 @@ const CustomButton = ({text, color, onClick}) => <div
 </div>
 
 function ButtonClick() {
-    alert("clicked");
 }
 
 CustomButton.defaultProps = {
